@@ -1,4 +1,4 @@
-@extends('template/main')
+  @extends('template/main')
 @section('judul', 'Daftar Mahasiswa')
 
 @section('container')
@@ -7,6 +7,8 @@
         <div class="col">
         
             <h1>List Students</h1>
+
+            <a href="/students/create" class="btn btn-primary">Tambah Data Mahasiswa</a>
 
             <table class="table">
   <thead class="thead-dark">
